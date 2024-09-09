@@ -76331,3 +76331,6 @@ DB.prototype._authOrThrow@src/mongo/shell/db.js:1461:20
 {'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:55:36', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 55, 23, 753000)}}, 'sort': {'ts': 1}}}
 {'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:55:43', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 55, 30, 145000)}}, 'sort': {'ts': 1}}}
 {'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:55:49', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 55, 36, 626000)}}, 'sort': {'ts': 1}}}
+{'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 11:00:36', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 8, 22, 15, 250000)}}, 'sort': {'ts': 1}}}
+{'collection': 'system.profile', 'operation': 'getmore', 'timestamp': '2024-09-09 11:00:36'}
+{'collection': 'users', 'operation': 'insert', 'timestamp': '2024-09-09 11:00:41', 'documents': [{'_id': ObjectId('66ded559ecf5d747536dbb5c'), 'username': 'ssssssss', 'email': 'salunke@example.com', 'password': '112233'}]}
