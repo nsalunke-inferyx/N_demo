@@ -75729,3 +75729,4 @@ DB.prototype._authOrThrow@src/mongo/shell/db.js:1461:20
 {'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:54:38', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 54, 25, 932000)}}, 'sort': {'ts': 1}}}
 {'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:54:45', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 54, 32, 493000)}}, 'sort': {'ts': 1}}}
 {'collection': 'users', 'operation': 'insert', 'timestamp': '2024-09-09 10:54:46', 'documents': [{'_id': ObjectId('66ded3f6ecf5d747536dbb5b'), 'username': 'ssssssss', 'email': 'salunke@example.com', 'password': '112233'}]}
+{'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:54:51', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 54, 38, 841000)}}, 'sort': {'ts': 1}}}
