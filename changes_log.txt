@@ -75725,3 +75725,4 @@ DB.prototype._authOrThrow@src/mongo/shell/db.js:1461:20
 {'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:54:20', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 8, 22, 15, 250000)}}, 'sort': {'ts': 1}}}
 {'collection': 'system.profile', 'operation': 'getmore', 'timestamp': '2024-09-09 10:54:20'}
 {'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:54:25', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 54, 14, 63000)}}, 'sort': {'ts': 1}}}
+{'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:54:32', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 54, 20, 874000)}}, 'sort': {'ts': 1}}}
