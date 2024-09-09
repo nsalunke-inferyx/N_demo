@@ -76324,3 +76324,4 @@ DB.prototype._authOrThrow@src/mongo/shell/db.js:1461:20
 {'collection': 'wfprocessexec', 'operation': 'command', 'timestamp': '2024-09-09 10:55:00', 'command': {'aggregate': 'wfprocessexec', 'pipeline': [{'$match': {'statusList.stage': {'$ne': 'COMPLETED'}}}, {'$match': {'isInitiated': 'N'}}, {'$match': {'active': 'Y'}}, {'$sort': {'createdOn': -1}}, {'$limit': 1}]}}
 {'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:55:04', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 54, 51, 742000)}}, 'sort': {'ts': 1}}}
 {'collection': 'system.profile', 'operation': 'getmore', 'timestamp': '2024-09-09 10:55:04'}
+{'collection': 'system.profile', 'operation': 'query', 'timestamp': '2024-09-09 10:55:11', 'query': {'find': 'system.profile', 'filter': {'ts': {'$gt': datetime.datetime(2024, 9, 9, 10, 55, 0, 590000)}}, 'sort': {'ts': 1}}}
