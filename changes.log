@@ -27,3 +27,5 @@ Change detected at 2024-09-10 17:31:45.196618
 Change detected at 2024-09-10 17:31:56.307219
 Change detected at 2024-09-10 17:32:07.679415
 Change detected at 2024-09-10 17:32:19.050698
+Collection: test_collection, Operation: insert, Timestamp: 2024-09-10 12:02:49
+Details: {'op': 'insert', 'ns': 'framework.test_collection', 'query': {'insert': 'test_collection', 'documents': [{'_id': ObjectId('66e0356941d16b772f228e83'), 'name': 'Devops   Document', 'value': 2222.0}], 'ordered': True}, 'ninserted': 1, 'keysInserted': 1, 'numYield': 0, 'locks': {'Global': {'acquireCount': {'r': 1, 'w': 1}}, 'Database': {'acquireCount': {'w': 1}}, 'Collection': {'acquireCount': {'w': 1}}}, 'responseLength': 29, 'protocol': 'op_command', 'millis': 0, 'ts': datetime.datetime(2024, 9, 10, 12, 2, 49, 339000), 'client': '127.0.0.1', 'appName': 'MongoDB Shell', 'allUsers': [{'user': 'inferyx', 'db': 'framework'}], 'user': 'inferyx@framework'}
