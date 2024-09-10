@@ -1,5 +1,2 @@
-Collection: test_collection, Operation: insert, Timestamp: 2024-09-10 12:39:23
-Documents: [{'_id': ObjectId('66e03dfb41d16b772f228e8b'), 'name': 'DVPs   Document', 'value': 3332.0}]
-
-Collection: users, Operation: insert, Timestamp: 2024-09-10 12:39:26
-Documents: [{'_id': ObjectId('66e03dfe41d16b772f228e8c'), 'username': 'aarti', 'email': 'aarti@example.com', 'password': '9999'}]
+Collection: test_collection, Operation: update, Timestamp: 2024-09-10 12:40:24
+Update: {'_id': ObjectId('66e03dfb41d16b772f228e8b'), 'name': 'Devops engineers Document', 'value': 3332.0}
